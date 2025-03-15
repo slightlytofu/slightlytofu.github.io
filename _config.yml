@@ -4,7 +4,7 @@
 title: Slightly Tofu
 SEOTitle: Slightly Tofu|A vegan podcast in Chinese
 header-img: img/about-bg-tofu.jpg
-email: youdiandofu@tmpemail.com
+# email: youdiandofu@tmpemail.com
 description: "可能是简中世界唯一的vegan播客"
 keyword: "有点豆腐, 有点豆腐播客, slightlytofu, vegan, 纯素主义, vegan podcast, chinese vegan podcast"
 url: "http://slightlytofu.github.io"          # your host, for absolute URL
@@ -13,7 +13,7 @@ github_repo: "https://github.com/slightlytofu/slightlytofu.github.io.git" # you 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "有点豆腐：可能是简中世界唯一的vegan播客。"
+sidebar-about-description: "有点豆腐(SlightlyTofu)：可能是简中世界唯一的vegan播客。"
 sidebar-avatar: /img/slightlytofu.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
