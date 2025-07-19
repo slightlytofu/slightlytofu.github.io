@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      两岸vegans对谈录Vol.01 《三個動物》的动权起源故事
+title:       【两岸vegans对谈录】Vol.01 《三個動物》的动权起源故事
 subtitle:   
 date:       2025-07-19
 author:     Q, Jojo
