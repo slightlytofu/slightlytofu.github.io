@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:       【豆腐两岸】Vol.01 《三個動物》的动权起源故事
-subtitle:   
+subtitle:
 date:       2025-07-19
 author:     Q, Jojo
 header-img: img/post-bg-default.jpg
@@ -27,7 +27,7 @@ tags:
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/cn/podcast/%E4%B8%A4%E5%B2%B8vegans%E5%AF%B9%E8%B0%88%E5%BD%95vol-01-%E4%B8%89%E5%80%8B%E5%8B%95%E7%89%A9-%E7%9A%84%E5%8A%A8%E6%9D%83%E8%B5%B7%E6%BA%90%E6%95%85%E4%BA%8B/id1794418651?i=1000718055186"></iframe>
 
-## 时间轴 
+## 时间轴
 
 * `00:00` 播客开场：在废除主义(Abolitionism) 动物权利立场上的共识
 * `01:00` 嘉宾介绍与个人动权起源故事
