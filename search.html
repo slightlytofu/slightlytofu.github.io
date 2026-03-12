@@ -1,0 +1,27 @@
+---
+layout: page
+title: "搜索 Search"
+description: "搜索有点豆腐的文章 · Search Slightly Tofu"
+
+---
+
+<div class="post-container">
+    <div id="search-box" style="margin-top: 20px;">
+        <input type="text" id="search-input" class="form-control" placeholder="搜索文章标题、标签、内容…" />
+    </div>
+
+    <ul id="results-container" style="margin-top: 20px; list-style: none; padding: 0;"></ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+<script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ "/search.json" | prepend: site.baseurl }}',
+    searchResultTemplate: '<li style="border-bottom: 1px solid #eee; padding: 12px 0;"><a href="{url}" style="font-size: 16px; font-weight: bold;">{title}</a><p style="color: #888; font-size: 13px; margin: 4px 0 0;">{date} &nbsp;·&nbsp; {tags}</p><p style="font-size: 14px; color: #555; margin: 4px 0 0;">{excerpt}</p></li>',
+    noResultsText: '<li style="padding: 12px 0; color: #888;">没有找到相关内容。</li>',
+    limit: 20,
+    fuzzy: false
+});
+</script>
