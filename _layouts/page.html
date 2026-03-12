@@ -36,7 +36,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <!-- no hr -->
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">精选标签 Featured Tags</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > site.featured-condition-size %}
@@ -85,7 +85,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">精选标签 Featured Tags</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
                             {% if tag[1].size > site.featured-condition-size %}
@@ -100,15 +100,15 @@ layout: default
 
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">关于我们 About Us</a></h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
                             <a href="{{ site.baseurl }}/about">
                                 <img src="{{site.sidebar-avatar}}"/>
                             </a>
                         {% endif %}
-                        {% if site.sidebar-about-description %}
-                            <p>{{site.sidebar-about-description}}</p>
+                        {% if site.sidebar-about-description-zh %}
+                            <p>{{ site.sidebar-about-description-zh }}<br>{{ site.sidebar-about-description-en }}</p>
                         {% endif %}
                         <!-- SNS Link -->
                         <ul class="list-inline">
