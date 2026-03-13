@@ -14,8 +14,8 @@ github_repo: "https://github.com/slightlytofu/slightlytofu.github.io.git" # you 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description-zh: "有点豆腐——可能是简中世界唯一的vegan播客。"
-sidebar-about-description-en: "SlightlyTofu—Perhaps the only vegan podcast in the Chinese-speaking world."
+sidebar-about-description-zh: "有点豆腐——可能是简中世界唯一的 vegan 播客。"
+# sidebar-about-description-en: "SlightlyTofu—Perhaps the only vegan podcast in the Chinese-speaking world."
 sidebar-avatar: /img/slightlytofu.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
