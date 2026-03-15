@@ -19,7 +19,7 @@ description: "A vegan podcast in Chinese."
         </div>
     </a>
     <p class="post-meta">
-        主播：{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} {{ post.date | date: "%Y年%-m月%-d日" }}
+        By{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} {{ post.date | date: "%Y年%-m月%-d日" }}
     </p>
 </div>
 <hr>
